@@ -3,7 +3,7 @@ var logger = require('morgan');
 var session = require('express-session');
 var bodyParser = require('body-parser');
 var path = require('path');
-var http = require('http'),
+var http = require('http');
 var wine = require('./routes/wines');
 var app = express();
 
